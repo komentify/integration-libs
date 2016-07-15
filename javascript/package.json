@@ -1,0 +1,27 @@
+{
+  "name": "komentify",
+  "version": "0.1.0",
+  "description": "Easily add komentify components to your app",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "ava --verbose --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komentify/integration-libs.git"
+  },
+  "keywords": [
+    "komentify",
+    "integration",
+    "library"
+  ],
+  "author": "Matteo De Micheli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/komentify/integration-libs/issues"
+  },
+  "homepage": "https://github.com/komentify/integration-libs#readme",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
