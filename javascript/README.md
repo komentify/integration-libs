@@ -16,5 +16,5 @@ const komentifyInstance = komentify({
   elementId: 'myDivWrapperId'
 })
 
-console.log(komentifyInstance.getScript())
+console.log(komentifyInstance.getScriptSnippet())
 ```
