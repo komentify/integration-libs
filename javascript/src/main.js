@@ -1,3 +1,5 @@
+const baseUrl = 'http://www.komentify.io/api/embed'
+
 module.exports = function (config) {
   if (!config || !config.elementId || !config.appId) {
     throw new Error('Configuration needs to have appId and elementId set');
@@ -8,9 +10,15 @@ module.exports = function (config) {
 
   return {
     getUrl() {
-      return `http://www.komentify.io/api/embed?appId=${appId}&selectorId=${elementId}`
+      var url = `${baseUrl}?appId=${appId}&selectorId=${elementId}`
+
+      if (config.siteId) {
+        url += '&siteId=' + config.siteId
+      }
+
+      return url
     },
-    getScript() {
+    getScriptSnippet() {
       return `<script src="${this.getUrl()}"></script>`
     }
   }

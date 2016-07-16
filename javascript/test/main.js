@@ -16,7 +16,24 @@ test('simple configuration', t => {
     'http://www.komentify.io/api/embed?appId=myAppId&selectorId=myDivWrapperId'
   )
   t.is(
-    komentifyInstance.getScript(),
+    komentifyInstance.getScriptSnippet(),
     '<script src="http://www.komentify.io/api/embed?appId=myAppId&selectorId=myDivWrapperId"></script>'
+  )
+})
+
+test('siteId configuration', t => {
+  const komentifyInstance = komentify({
+    appId: 'myAppId',
+    elementId: 'myDivWrapperId2',
+    siteId: 'my-site'
+  })
+
+  t.is(
+    komentifyInstance.getUrl(),
+    'http://www.komentify.io/api/embed?appId=myAppId&selectorId=myDivWrapperId2&siteId=my-site'
+  )
+  t.is(
+    komentifyInstance.getScriptSnippet(),
+    '<script src="http://www.komentify.io/api/embed?appId=myAppId&selectorId=myDivWrapperId2&siteId=my-site"></script>'
   )
 })

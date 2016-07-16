@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/komentify/integration-libs/issues"
   },
-  "homepage": "https://github.com/komentify/integration-libs#readme",
+  "homepage": "https://github.com/komentify/integration-libs",
   "devDependencies": {
     "ava": "^0.15.2"
   }
