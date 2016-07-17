@@ -1,5 +1,6 @@
-# Integration libraries for komentify
+# Integration libraries
 
 This is the main repo that holds all official integration libraries provided by komentify.
 
-* [javascript](/javascript/)
+* [Javascript](/javascript/)
+* [Meteor](/meteor/)
