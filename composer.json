@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "": "php/src/"
         }
     },
     "authors": [
@@ -19,5 +19,9 @@
             "name": "Matteo De Micheli",
             "email": "matteo@arkham-enterprises.com"
         }
-    ]
+    ],
+    "config": {
+        "bin-dir": "php/bin",
+        "vendor-dir": "php/vendor"
+    }
 }
