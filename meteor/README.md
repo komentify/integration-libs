@@ -14,4 +14,5 @@ meteor add arkham:komentify
 </div>
 ```
 
-See the [javascript](/javascript/) integration for the list of parameters that can be specified.
+See the [javascript](/javascript/) integration for the list of parameters that can be specified
+(elementId does not need to be specified).

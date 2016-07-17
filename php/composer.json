@@ -1,0 +1,23 @@
+{
+    "name": "arkham/komentify",
+    "description": "Komentify integration library",
+    "type": "library",
+    "require-dev": {
+        "phpspec/phpspec": "^3.0"
+    },
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matteo De Micheli",
+            "email": "matteo@arkham-enterprises.com"
+        }
+    ]
+}
