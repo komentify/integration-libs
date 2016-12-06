@@ -9,7 +9,7 @@ composer require arkham/komentify
 ## How to use
 
 ```php
-use Komentify/IntegrationHandler
+use Komentify\IntegrationHandler;
 
 $integrationHandler = new IntegrationHandler([
     'appId' => 'myAppId',
