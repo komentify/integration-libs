@@ -3,7 +3,7 @@
 The php integration is installable over composer
 
 ```
-composer install arkham/komentify
+composer require arkham/komentify
 ```
 
 ## How to use
