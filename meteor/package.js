@@ -1,13 +1,13 @@
 Package.describe({
   name: 'arkham:komentify',
-  version: '0.1.2',
+  version: '0.1.3',
   summary: 'Blaze components for useage of komentify',
   git: 'https://github.com/komentify/integration-libs',
   documentation: './README.md'
 })
 
 Npm.depends({
-  komentify: '0.1.2'
+  komentify: '0.1.3'
 })
 
 Package.onUse(function(api) {

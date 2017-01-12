@@ -1,4 +1,4 @@
-const baseUrl = 'http://www.komentify.io/api/embed'
+const baseUrl = 'https://www.komentify.io/api/embed'
 
 module.exports = function (config) {
   if (!config || !config.elementId || !config.appId) {

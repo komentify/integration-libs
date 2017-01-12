@@ -1,6 +1,6 @@
 {
   "name": "komentify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Easily add komentify components to your app",
   "main": "src/main.js",
   "scripts": {

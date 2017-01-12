@@ -6,7 +6,7 @@ use Komentify\Exception\InvalidConfigurationException;
 
 class IntegrationHandler
 {
-    const BASE_URL = 'http://www.komentify.io/api/embed';
+    const BASE_URL = 'https://www.komentify.io/api/embed';
 
     /**
      * @var array

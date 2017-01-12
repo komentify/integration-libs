@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "komentify": {
-      "version": "0.1.1",
-      "resolved": "https://registry.npmjs.org/komentify/-/komentify-0.1.1.tgz",
-      "from": "komentify@0.1.1"
+      "version": "0.1.2",
+      "resolved": "https://registry.npmjs.org/komentify/-/komentify-0.1.2.tgz",
+      "from": "komentify@0.1.2"
     }
   }
 }
